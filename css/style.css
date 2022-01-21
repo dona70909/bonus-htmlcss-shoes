@@ -49,6 +49,7 @@ img{
 .container-red{
     position: relative;
     background-color: red;
+    background-image: linear-gradient(red, orange);
     width: 100vw;
     height: 100vh;
 }
@@ -56,6 +57,7 @@ img{
 .container-green{
     position: relative;
     background-color: green;
+    background-image: linear-gradient(green, lightgreen);
     width: 100vw;
     height: 100vh;
 }
@@ -63,6 +65,7 @@ img{
 .container-yellow{
     position: relative;
     background-color: yellow;
+    background-image: linear-gradient( yellow, rgb(141, 141, 31));
     width: 100vw;
     height: 100vh;
 }
@@ -99,6 +102,8 @@ img:hover{
     transition: width 2s;
     transition: height 2s;
 }
+
+
 
 
 
