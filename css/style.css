@@ -2,6 +2,8 @@
 *{
     box-sizing: border-box;
     margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
 
 .container-button{
@@ -22,19 +24,26 @@ button{
     height: 50px;
     margin-right: 10px;
     font-weight: 900;
+    background-color: rgba(8, 8, 8,0.5);
+    border: 5px solid black;
+  
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color:white;
 }
 
 img{
     width:500px;
     height: 350px;
+    filter: drop-shadow(134px 12px 0px black);
 }
 
-
+hr{
+    background: black;
+    border: 1px solid black;
+}
 
 
 .clearfix::after{
@@ -44,38 +53,41 @@ img{
 }
 
 
-
-
 .container-red{
     position: relative;
-    background-color: red;
-    background-image: linear-gradient(red, orange);
+    background-color: rgb(121, 17, 17);
+    background-image: linear-gradient(rgb(167, 20, 20), rgb(170, 117, 19));
     width: 100vw;
-    height: 100vh;
+    height: 100vh; 
+    opacity: 0.7;  
 }
 
 .container-green{
     position: relative;
-    background-color: green;
-    background-image: linear-gradient(green, lightgreen);
+    background-color: rgb(22, 73, 22);
+    background-image: linear-gradient(rgb(30, 146, 30), rgb(115, 190, 115));
     width: 100vw;
     height: 100vh;
+    opacity: 0.7; 
 }
 
 .container-yellow{
     position: relative;
-    background-color: yellow;
+    background-color: rgb(202, 202, 15);
     background-image: linear-gradient( yellow, rgb(141, 141, 31));
     width: 100vw;
     height: 100vh;
+    opacity: 0.7; 
 }
 
 .description {
     bottom:20px;
-    text-transform:uppercase;
+    text-transform: capitalize;
     font-size: 50px;
     font-weight: 800;
     text-align: center;
+    text-shadow: 4px 4px black;
+    
 }
 
 .container-elements{
@@ -87,21 +99,21 @@ img{
 
 
 .yellow-text{
-    color: yellow;
+    color: rgb(190, 190, 1);
+    
+    
 } 
 
 .green-text{
-    color:green;
+    color:rgb(5, 97, 5);
 }
     
 
-img:hover{
+img:hover {
     transform: scale(1.3);
-    width: 800px;
-    height:450px;
-    transition: width 2s;
-    transition: height 2s;
 }
+
+
 
 
 
